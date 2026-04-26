@@ -1,0 +1,35 @@
+body {
+  background: #111;
+  color: white;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.clock {
+  font-size: 60px;
+  margin: 20px 0;
+  background: black;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #00ffcc;
+}
+
+input {
+  width: 60px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+button {
+  padding: 6px 10px;
+  margin: 5px;
+  cursor: pointer;
+}

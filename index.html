@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Watch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Digital Watch</h1>
+
+    <div class="clock" id="clock">00:00:00</div>
+
+    <div class="set-time">
+      <input type="number" id="hour" placeholder="HH" min="0" max="23">
+      <input type="number" id="minute" placeholder="MM" min="0" max="59">
+      <input type="number" id="second" placeholder="SS" min="0" max="59">
+      <button onclick="setTime()">Set Time</button>
+      <button onclick="resetTime()">Reset</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
